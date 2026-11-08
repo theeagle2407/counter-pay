@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "counter-pay",
+  "main": "./worker/counter.ts",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "counter-production",
+      "database_id": "4dcb3acb-280c-4626-8192-11f24bf423f3"
+    }
+  ]
+}
